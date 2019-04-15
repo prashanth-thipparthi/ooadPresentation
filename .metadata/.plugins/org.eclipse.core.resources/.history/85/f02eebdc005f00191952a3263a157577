@@ -1,0 +1,13 @@
+package com.spring.presentation;
+
+public class Helper {
+	
+	public void log() {
+		System.out.println("Log the action..");
+	}
+	
+	public void indicatorOn() {
+		System.out.println("On the Indicator");		
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.spring.presentation;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.stereotype.Component;
+
+
+// Advice => Before, After
+//Pointcut - where
+
+@Component
+@Aspect
+@EnableAspectJAutoProxy
+public class Helper {
+	
+	@Before("execution(public void start())")  //when ever show start is called
+	public void log() {
+		System.out.println("Log the action..");
+	}
+	
+	public void indicatorOn() {
+		System.out.println("On the Indicator");		
+	}
+	
+	public void indicatorOff() {
+		System.out.println("Off the Indicator");		
+	}
+}

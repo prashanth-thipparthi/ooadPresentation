@@ -1,0 +1,17 @@
+package com.spring.presentation;
+
+@Aspect
+public class Helper {
+	
+	public void log() {
+		System.out.println("Log the action..");
+	}
+	
+	public void indicatorOn() {
+		System.out.println("On the Indicator");		
+	}
+	
+	public void indicatorOff() {
+		System.out.println("Off the Indicator");		
+	}
+}

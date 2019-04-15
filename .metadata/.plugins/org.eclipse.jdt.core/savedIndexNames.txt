@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\tnr\Dropbox\OoadPresentation\.metadata\.plugins\org.eclipse.jdt.core
+160716585.index
+3750064137.index
+3436860626.index

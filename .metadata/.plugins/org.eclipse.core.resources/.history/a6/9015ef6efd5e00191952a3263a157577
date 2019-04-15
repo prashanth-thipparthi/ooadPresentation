@@ -1,0 +1,25 @@
+package com.spring.presentation;
+
+public class Car {
+	
+	int id;
+	String name;
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void start() {
+		System.out.println("car stated");
+	}
+
+}
